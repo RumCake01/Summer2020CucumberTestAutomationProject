@@ -19,7 +19,11 @@ public class CreateCalendarEventPage extends BasePage {
     @FindBy(id = "tinymce")
     private WebElement descriptionInputBox;
 
+    // just randomly added this
     public void enterTitle(String text) {
+
+
+        BrowserUtils.enterText(titleInputBox, text);
         BrowserUtils.enterText(titleInputBox, text);
     }
 
