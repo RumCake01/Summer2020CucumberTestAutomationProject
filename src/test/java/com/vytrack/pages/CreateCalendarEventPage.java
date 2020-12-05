@@ -22,8 +22,6 @@ public class CreateCalendarEventPage extends BasePage {
     // just randomly added this
     public void enterTitle(String text) {
 
-
-        BrowserUtils.enterText(titleInputBox, text);
         BrowserUtils.enterText(titleInputBox, text);
     }
 
